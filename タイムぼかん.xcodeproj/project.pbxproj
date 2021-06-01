@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAppleScriptBuildPhase section */
+		257572C4072881A4000BE9CA /* AppleScript */ = {
+			isa = PBXAppleScriptBuildPhase;
+			buildActionMask = 2147483647;
+			contextName = "";
+			files = (
+				257572C5072881A4000BE9CA /* タイムぼかん.applescript in AppleScript */,
+				2B21CBA214BBCA89005F8E9C /* KZStrings.applescript in AppleScript */,
+				2B21CBA314BBCA89005F8E9C /* KZFileManager.applescript in AppleScript */,
+				2B21CBB114BBCAC1005F8E9C /* CommonDialog.applescript in AppleScript */,
+				2B7BA7AE14BD847200C3D4B9 /* RenameTool.applescript in AppleScript */,
+				2B83EC1F14C24F44001E041C /* 劇的BeforeAfter.applescript in AppleScript */,
+				2B9D62C01D8BADB1008A33B9 /* toGray.applescript in AppleScript */,
+			);
+			isSharedContext = 0;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXAppleScriptBuildPhase section */
+
+/* Begin PBXBuildFile section */
+		257572C5072881A4000BE9CA /* タイムぼかん.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = DA206CF3015C4E8B03C91932 /* タイムぼかん.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		257572CA072881A4000BE9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */; };
+		2B1428AF1963C37200143C34 /* sikiiki_action_near.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 2B1428AE1963C37200143C34 /* sikiiki_action_near.jsx */; };
+		2B21CBA214BBCA89005F8E9C /* KZStrings.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 2B21CBA014BBCA89005F8E9C /* KZStrings.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		2B21CBA314BBCA89005F8E9C /* KZFileManager.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 2B21CBA114BBCA89005F8E9C /* KZFileManager.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		2B21CBA814BBCA99005F8E9C /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21CBA414BBCA99005F8E9C /* FileManager.m */; };
+		2B21CBA914BBCA99005F8E9C /* Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21CBA514BBCA99005F8E9C /* Strings.m */; };
+		2B21CBAA14BBCA99005F8E9C /* Strings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B21CBA614BBCA99005F8E9C /* Strings.h */; };
+		2B21CBAB14BBCA99005F8E9C /* FileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B21CBA714BBCA99005F8E9C /* FileManager.h */; };
+		2B21CBAF14BBCAB6005F8E9C /* Camera.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2B21CBAE14BBCAB6005F8E9C /* Camera.icns */; };
+		2B21CBB114BBCAC1005F8E9C /* CommonDialog.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 2B21CBB014BBCAC1005F8E9C /* CommonDialog.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		2B2C2A6717F5327400880BD1 /* bure.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C2A6617F5327400880BD1 /* bure.jsx */; };
+		2B3B775814C261F400EAFD67 /* kyoukai.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 2B3B775714C261F400EAFD67 /* kyoukai.jsx */; };
+		2B3B775A14C261FE00EAFD67 /* sikiiki_action_ill.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 2B3B775914C261FE00EAFD67 /* sikiiki_action_ill.jsx */; };
+		2B3BB32418A1F036003C3F93 /* sikiiki_color.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BB32318A1F036003C3F93 /* sikiiki_color.jsx */; };
+		2B5FE0AF181F47720072FD9A /* sikiiki_action.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 2B5FE0AE181F47720072FD9A /* sikiiki_action.jsx */; };
+		2B7BA7AE14BD847200C3D4B9 /* RenameTool.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 2B7BA7AD14BD847200C3D4B9 /* RenameTool.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		2B83EA04198F597C00D12211 /* chgGray.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 2B83EA03198F597C00D12211 /* chgGray.jsx */; };
+		2B83EC1F14C24F44001E041C /* 劇的BeforeAfter.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 2B83EC1E14C24F44001E041C /* 劇的BeforeAfter.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		2B9D62C01D8BADB1008A33B9 /* toGray.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 2B9D62BF1D8BADB1008A33B9 /* toGray.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		60A014C40DBD2AA20071D9A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60A014C20DBD2AA20071D9A8 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		257572D5072881A4000BE9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257572D6072881A4000BE9CA /* タイムぼかん.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "タイムぼかん.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2B1428AE1963C37200143C34 /* sikiiki_action_near.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sikiiki_action_near.jsx; sourceTree = "<group>"; };
+		2B21CBA014BBCA89005F8E9C /* KZStrings.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = KZStrings.applescript; sourceTree = "<group>"; };
+		2B21CBA114BBCA89005F8E9C /* KZFileManager.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = KZFileManager.applescript; sourceTree = "<group>"; };
+		2B21CBA414BBCA99005F8E9C /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		2B21CBA514BBCA99005F8E9C /* Strings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strings.m; sourceTree = "<group>"; };
+		2B21CBA614BBCA99005F8E9C /* Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strings.h; sourceTree = "<group>"; };
+		2B21CBA714BBCA99005F8E9C /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		2B21CBAE14BBCAB6005F8E9C /* Camera.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Camera.icns; sourceTree = "<group>"; };
+		2B21CBB014BBCAC1005F8E9C /* CommonDialog.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = CommonDialog.applescript; sourceTree = "<group>"; };
+		2B2C2A6617F5327400880BD1 /* bure.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bure.jsx; sourceTree = "<group>"; };
+		2B3B775714C261F400EAFD67 /* kyoukai.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kyoukai.jsx; sourceTree = "<group>"; };
+		2B3B775914C261FE00EAFD67 /* sikiiki_action_ill.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sikiiki_action_ill.jsx; sourceTree = "<group>"; };
+		2B3BB31A18A1F01F003C3F93 /* diff_action.jsx */ = {isa = PBXFileReference; lastKnownFileType = text; path = diff_action.jsx; sourceTree = "<group>"; };
+		2B3BB32318A1F036003C3F93 /* sikiiki_color.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sikiiki_color.jsx; sourceTree = "<group>"; };
+		2B5FE0AE181F47720072FD9A /* sikiiki_action.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sikiiki_action.jsx; sourceTree = "<group>"; };
+		2B7BA7AD14BD847200C3D4B9 /* RenameTool.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = RenameTool.applescript; sourceTree = "<group>"; };
+		2B83EA03198F597C00D12211 /* chgGray.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chgGray.jsx; sourceTree = "<group>"; };
+		2B83EC1E14C24F44001E041C /* 劇的BeforeAfter.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = "劇的BeforeAfter.applescript"; sourceTree = "<group>"; };
+		2B9D62BF1D8BADB1008A33B9 /* toGray.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = toGray.applescript; sourceTree = "<group>"; };
+		60A014C30DBD2AA20071D9A8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		65359356078DD41800E8BB2F /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
+		DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
+		DA206CF3015C4E8B03C91932 /* タイムぼかん.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = "タイムぼかん.applescript"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257572CB072881A4000BE9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */,
+				257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				2B83EC1114C24EA2001E041C /* Libs */,
+				DA206CF3015C4E8B03C91932 /* タイムぼかん.applescript */,
+				2B83EC1E14C24F44001E041C /* 劇的BeforeAfter.applescript */,
+				2B7BA7AD14BD847200C3D4B9 /* RenameTool.applescript */,
+				2B9D62BF1D8BADB1008A33B9 /* toGray.applescript */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257572D6072881A4000BE9CA /* タイムぼかん.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* タイムぼかん */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Scripts */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				257572D5072881A4000BE9CA /* Info.plist */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "タイムぼかん";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B21CBAE14BBCAB6005F8E9C /* Camera.icns */,
+				60A014C20DBD2AA20071D9A8 /* MainMenu.xib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				65359356078DD41800E8BB2F /* AppleScriptKit.sdef */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B83EC1114C24EA2001E041C /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				2B1428AE1963C37200143C34 /* sikiiki_action_near.jsx */,
+				2B83EA03198F597C00D12211 /* chgGray.jsx */,
+				2B5FE0AE181F47720072FD9A /* sikiiki_action.jsx */,
+				2B3B775914C261FE00EAFD67 /* sikiiki_action_ill.jsx */,
+				2B3BB31A18A1F01F003C3F93 /* diff_action.jsx */,
+				2B3BB32318A1F036003C3F93 /* sikiiki_color.jsx */,
+				2B2C2A6617F5327400880BD1 /* bure.jsx */,
+				2B3B775714C261F400EAFD67 /* kyoukai.jsx */,
+				2B21CBA014BBCA89005F8E9C /* KZStrings.applescript */,
+				2B21CBA114BBCA89005F8E9C /* KZFileManager.applescript */,
+				2B21CBB014BBCAC1005F8E9C /* CommonDialog.applescript */,
+				2B21CBA414BBCA99005F8E9C /* FileManager.m */,
+				2B21CBA514BBCA99005F8E9C /* Strings.m */,
+				2B21CBA614BBCA99005F8E9C /* Strings.h */,
+				2B21CBA714BBCA99005F8E9C /* FileManager.h */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		257572C3072881A4000BE9CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B21CBAA14BBCA99005F8E9C /* Strings.h in Headers */,
+				2B21CBAB14BBCA99005F8E9C /* FileManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		257572C2072881A4000BE9CA /* タイムぼかん */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "タイムぼかん" */;
+			buildPhases = (
+				257572C3072881A4000BE9CA /* Headers */,
+				257572C4072881A4000BE9CA /* AppleScript */,
+				257572C6072881A4000BE9CA /* Resources */,
+				257572C9072881A4000BE9CA /* Sources */,
+				257572CB072881A4000BE9CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "タイムぼかん";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "タイムぼかん";
+			productReference = 257572D6072881A4000BE9CA /* タイムぼかん.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "タイムぼかん" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* タイムぼかん */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257572C2072881A4000BE9CA /* タイムぼかん */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257572C6072881A4000BE9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */,
+				60A014C40DBD2AA20071D9A8 /* MainMenu.xib in Resources */,
+				2B21CBAF14BBCAB6005F8E9C /* Camera.icns in Resources */,
+				2B3B775814C261F400EAFD67 /* kyoukai.jsx in Resources */,
+				2B3B775A14C261FE00EAFD67 /* sikiiki_action_ill.jsx in Resources */,
+				2B2C2A6717F5327400880BD1 /* bure.jsx in Resources */,
+				2B5FE0AF181F47720072FD9A /* sikiiki_action.jsx in Resources */,
+				2B3BB32418A1F036003C3F93 /* sikiiki_color.jsx in Resources */,
+				2B1428AF1963C37200143C34 /* sikiiki_action_near.jsx in Resources */,
+				2B83EA04198F597C00D12211 /* chgGray.jsx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257572C9072881A4000BE9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CA072881A4000BE9CA /* main.m in Sources */,
+				2B21CBA814BBCA99005F8E9C /* FileManager.m in Sources */,
+				2B21CBA914BBCA99005F8E9C /* Strings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60A014C20DBD2AA20071D9A8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60A014C30DBD2AA20071D9A8 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E71A80608A2C90C0034BBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "タイムぼかん";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E71A80708A2C90C0034BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_OSAFLAGS = "-x";
+				PRODUCT_NAME = "タイムぼかん";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E71A80A08A2C90C0034BBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		4E71A80B08A2C90C0034BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "タイムぼかん" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E71A80608A2C90C0034BBD9 /* Debug */,
+				4E71A80708A2C90C0034BBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "タイムぼかん" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E71A80A08A2C90C0034BBD9 /* Debug */,
+				4E71A80B08A2C90C0034BBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
